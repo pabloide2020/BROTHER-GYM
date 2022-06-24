@@ -14,7 +14,7 @@ p {
 }
 
 .main-container {
-    background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(0, 0, 0, 0.9);
 }
 
 /*Header and navigator*/
@@ -46,39 +46,38 @@ ul {
 }
 
 .logo a {
-    letter-spacing: 5px;
-    color: #506266;
-
+  letter-spacing: 5px;
+  color: #506266;
 }
 
 .navigator li a {
-    position: relative;
-    letter-spacing: 2px;
-    color: black;
-    padding: 0 10px;
+  position: relative;
+  letter-spacing: 2px;
+  color: black;
+  padding: 0 10px;
 }
 
 .navigator li a:hover {
-    color: #bde038;
+  color: #bde038;
 }
 
 .navigator li a:active {
-    color: white;
+  color: white;
 }
 
 .navigator li a::after {
-    content: '';
-    position: absolute;
-    height: 3px;
-    width: 0;
-    background-color: #bde038;
-    left: 0;
-    bottom: -5px;
-    transition: all 0.3s;
+  content: "";
+  position: absolute;
+  height: 3px;
+  width: 0;
+  background-color: #bde038;
+  left: 0;
+  bottom: -5px;
+  transition: all 0.3s;
 }
 
 .navigator li a:hover::after {
-    width: 100%;
+  width: 100%;
 }
 
 .logo a,
@@ -96,218 +95,266 @@ header {
 /* First get started*/
 
 .slogan {
-    margin-left: 5vw;
-    margin-top: 20vh;
+  margin-left: 5vw;
+  margin-top: 20vh;
 }
 
-.slogan h2,.slogan h3 {
-    color: white;
-    max-width: fit-content;
-    padding: 0.75vh 2vw;
-    font-weight: normal;
+.slogan h2,
+.slogan h3 {
+  color: white;
+  max-width: fit-content;
+  padding: 0.75vh 2vw;
+  font-weight: normal;
 }
 
-.slogan h2{
-    background-color: #bde038;
-    font-size: 5rem;
+.slogan h2 {
+  background-color: #bde038;
+  font-size: 5rem;
 }
 
 .slogan h3 {
-    background-color: #10454f;
-    font-size: 2rem;
-    margin-bottom: 50px;
+  background-color: #10454f;
+  font-size: 2rem;
+  margin-bottom: 50px;
 }
 
-.get-started , .slogan a{
-    background-color: #bde038;
-    color: #10454f;
-    text-decoration: none;
-    padding: 5px 15px;
-    font-weight: 700;
-    font-size: 2rem;
-    border-radius: 10px;
-    transition: all 0.3s;
-    border: none;
+.get-started,
+.slogan a {
+  background-color: #bde038;
+  color: #10454f;
+  text-decoration: none;
+  padding: 5px 15px;
+  font-weight: 700;
+  font-size: 2rem;
+  border-radius: 10px;
+  transition: all 0.3s;
+  border: none;
 }
 
 .get-started:hover {
-    transform: scale(1.25);
-    filter: brightness(2);
+  transform: scale(1.25);
+  filter: brightness(2);
 }
 
 /*Weeks day specials*/
 
-.yoga, .spinning, .happy {
-    height: 65vh;
-    display: flex;
-    margin-top: 20vh;
-    margin-left: 5vw;
-    margin-right: 5vw;
-    justify-content: space-between;
+.yoga,
+.spinning,
+.happy {
+  height: 65vh;
+  display: flex;
+  margin-top: 20vh;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  justify-content: space-between;
 }
 
-
 section article p {
-    text-align: justify;
-    width: 70%;
-    font-weight: 100;
-    font-size: 1.2rem;
+  text-align: justify;
+  width: 70%;
+  font-weight: 100;
+  font-size: 1.2rem;
 }
 
 section .primary-img {
-    height: 65vh;
+  height: 65vh;
 }
 
 section .secondary-img {
-    height: 45vh;
+  height: 45vh;
 }
 
 .ilustrations {
-    width: fit-content;
-    display: flex;
-    align-items: center;
-    gap: 2.5vw;
-    height: 100%;
-}
-
-.ilustrations img {
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  gap: 2.5vw;
+  height: 100%;
 }
 
 section article {
-    width: 60%;
+  width: 60%;
 }
 
 section h2 {
-    font-weight: 200;
-    font-size: 2rem;
-    color: white;
+  font-weight: 200;
+  font-size: 2rem;
+  color: white;
 }
 
 section h2 span {
-    color: #bde038;
+  color: #bde038;
 }
 
 .desc {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 a.secondary {
-    font-size: 1.5rem;
-    align-self: flex-start;
-    margin: 0;
-    padding: 0.25em 1em;
+  font-size: 1.5rem;
+  align-self: flex-start;
+  margin: 0;
+  padding: 0.25em 1em;
 }
 
 section.yoga article {
-    margin-left: 20vh;
+  margin-left: 20vh;
 }
 
-section.yoga article p{
-    width: 100%;
+section.yoga article p {
+  width: 100%;
 }
 
 /* Plan's section*/
 
 section.plans {
-    margin-top: 30vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  margin-top: 30vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 section.plans h1 {
-    color: white;
-    font-size: 2.5rem;
-    font-weight: 800;
+  color: white;
+  font-size: 2.5rem;
+  font-weight: 800;
 }
 
 section.plans h1 span {
-    color: #bde038;
+  color: #bde038;
 }
 
 .plan-blocks {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    margin-top: 10vh;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 10vh;
 }
 
 .plan-blocks div {
-    height: 80vh;
-    width: 27vw;
-    border-radius: 10px;
-    transition: all .3s;
+  height: 80vh;
+  width: 27vw;
+  border-radius: 10px;
+  transition: all 0.3s;
 }
 
 .plan-blocks div:hover {
-    transform: scale(1.1);
-    box-shadow: 1px 1px 50px grey;
+  transform: scale(1.1);
+  box-shadow: 1px 1px 50px grey;
 }
 
 .starter-plan {
-    background-color: white;
-    margin-left: 5vw;
-
+  background-color: white;
+  margin-left: 5vw;
 }
 
 .starter-plan h2 {
-    color: #506266;
+  color: #506266;
 }
 
 .basic-plan {
-    background-color: #a3ab78;
-    color: white;
+  background-color: #a3ab78;
+  color: white;
 }
 
 .athlete-plan {
-    background-color: #bde038;
-    margin-right: 5vw;
-    color: white;
-
+  background-color: #bde038;
+  margin-right: 5vw;
+  color: white;
 }
 
 section.plans .plan-blocks div ul {
-    display: block;
-    list-style: none;
-    font-weight: 400;
-    font-size: 1.2rem;
-    margin-top: 3vh;
+  display: block;
+  list-style: none;
+  font-weight: 400;
+  font-size: 1.2rem;
+  margin-top: 3vh;
 }
 
 .plan-blocks div ul li {
-    margin-top: 1.5vh;
+  margin-top: 1.5vh;
 }
 
-.plan-blocks div ul li img{
-    height: 1.5em;
-    margin-left: 30px;
-    margin-right: 5px;
+.plan-blocks div ul li img {
+  height: 1.5em;
+  margin-left: 30px;
+  margin-right: 5px;
 }
 
 .plan-blocks div h2 {
-    display: flex;
-    justify-content: center;
-    margin-top: 5vh;
-    font-size: 2.5rem;
+  display: flex;
+  justify-content: center;
+  margin-top: 5vh;
+  font-size: 2.5rem;
 }
 
-.plan-blocks div h3{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 2rem;
-    margin-top: 3vh;
+.plan-blocks div h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  margin-top: 3vh;
 }
 
 .plan-blocks div h3 span.price {
-    font-size: 5rem;
+  font-size: 5rem;
 }
 .plan-blocks div h3 span {
-    align-self: flex-end;
+  align-self: flex-end;
 }
 
 .plans a {
-    margin: 7.5vh auto;
+  margin: 6vh auto 15vh auto;
+}
+
+/* Footer*/
+
+footer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 60vh;
+  gap: 5vh;
+}
+
+footer .logo {
+  margin-top: 10vh;
+  margin: 10vh auto 0 auto;
+}
+
+footer ul {
+  position: relative;
+  transform: translateY(-200%);
+  letter-spacing: 2px;
+  list-style: none;
+  margin: 0 auto;
+}
+
+footer ul::after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 90vw;
+  background-color: #506266;
+  bottom: -5vh;
+}
+
+footer ul li {
+  margin: 0 10vw;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.1rem;
+}
+
+footer p {
+  color: black;
+  margin-bottom: 5vh;
+  letter-spacing: 2px;
+  font-weight: 700;
 }
