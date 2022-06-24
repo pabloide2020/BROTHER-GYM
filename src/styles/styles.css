@@ -118,7 +118,7 @@ header {
     margin-bottom: 50px;
 }
 
-.slogan button , .slogan a{
+.get-started , .slogan a{
     background-color: #bde038;
     color: #10454f;
     text-decoration: none;
@@ -130,7 +130,80 @@ header {
     border: none;
 }
 
-.slogan button:hover {
+.get-started:hover {
     transform: scale(1.25);
     filter: brightness(2);
+}
+
+/*Weeks day specials*/
+
+.yoga, .spinning, .happy {
+    height: 65vh;
+    display: flex;
+    margin-top: 20vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    justify-content: space-between;
+}
+
+
+section article p {
+    text-align: justify;
+    width: 70%;
+    font-weight: 100;
+    font-size: 1.2rem;
+}
+
+section .primary-img {
+    height: 65vh;
+}
+
+section .secondary-img {
+    height: 45vh;
+}
+
+.ilustrations {
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    gap: 2.5vw;
+    height: 100%;
+}
+
+.ilustrations img {
+}
+
+section article {
+    width: 60%;
+}
+
+section h2 {
+    font-weight: 200;
+    font-size: 2rem;
+    color: white;
+}
+
+section h2 span {
+    color: #bde038;
+}
+
+.desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+a.secondary {
+    font-size: 1.5rem;
+    align-self: flex-start;
+    margin: 0;
+    padding: 0.25em 1em;
+}
+
+section.yoga article {
+    margin-left: 20vh;
+}
+
+section.yoga article p{
+    width: 100%;
 }
