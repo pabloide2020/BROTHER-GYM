@@ -8,6 +8,10 @@
   font-family: "Oswald", sans-serif;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 p {
   font-family: "Roboto", sans-serif;
   color: white;
@@ -357,4 +361,157 @@ footer p {
   margin-bottom: 5vh;
   letter-spacing: 2px;
   font-weight: 700;
+}
+
+/* Mobile version*/
+
+.toggle-btn {
+  position: absolute;
+  top: 0.75rem;
+  right: 1rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 21px;
+}
+
+.bar {
+  height: 3px;
+  width: 100%;
+  background-color: #bde038;
+  border-radius: 10px;
+}
+
+@media (max-width: 800px) {
+  /*Responsive navbar*/
+  body {
+    overflow-x: hidden;
+  }
+
+  .toggle-btn {
+    display: flex;
+    align-self: center;
+  }
+
+  .navbar-links {
+    width: 100%;
+    margin-top: 2.5vh;
+
+  }
+
+  nav {
+    background-color: #ffff;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+  }
+
+  .navigator {
+    flex-direction: column;
+    background-color: #ffff;
+    width: 100%;
+    display: none;
+  }
+
+  .navigator li {
+    width: 100%;
+    text-align: center;
+  }
+
+  .navigator li a:hover::after {
+    width: 0;
+  }
+
+  .navigator li a:hover {
+    background-color: rgba(128, 128, 128, 0.301);
+    color: black;
+  }
+
+  .navigator ul li a{
+    padding: 1rem;
+    display: block;
+    width: 100%;
+  }
+
+  .navigator.active {
+    display: flex;
+  }
+
+  .logo {
+    transform: translateY(50%);
+  }
+}
+
+@media (max-width: 1300px) {
+  /* Sections*/
+  .yoga, .spinning, .happy {
+    margin-top: 10vh;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .yoga {
+    flex-direction: column-reverse;
+    margin-top: 20vh;
+  }
+
+  .secondary-img {
+    display: none;
+  }
+
+  .desc {
+    width: 100%;
+    align-items: center;
+    gap: 1em;
+  }
+
+  a.secondary {
+    align-self: center;
+    margin-bottom: 1em;
+  }
+
+  section.yoga article {
+    margin-left: 0px;
+  }
+
+  section.yoga article p {
+    width: 70%;
+  }
+
+  section.yoga {
+    margin-top: 50vh;
+  }
+
+}
+
+@media (max-width: 1000px) {
+  /* Plans*/
+
+  .plan-blocks {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .plan-blocks div {
+    width: 70vw;
+    height: 60vh;
+    margin-bottom: 5vh;
+  }
+
+  .starter-plan, .athlete-plan {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  @media (max-width: 500px) {
+    .primary-img {
+      transform: scale(0.6);
+    }
+
+    .slogan h2 {
+      font-size: 3rem;
+    }
+  }
+
 }
